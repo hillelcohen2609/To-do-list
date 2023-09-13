@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To Do List</title>
+    <script src="js/index.js" defer></script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="title">
+      <h1>TO DO LIST</h1>
+      <input type="text" placeholder="add a note" id="add-note" value="" onkeyup="dis()"  />
+      <button onclick="getNewNote()" disabled id="add">+</button>
+    </div>
+    <div id="list">
+      <!--the list items will be added here-->
+    </div>
+  </body>
+</html>

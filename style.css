@@ -1,0 +1,63 @@
+body{
+    margin:  0;
+    
+    text-align: center;
+    background-color: #9E9FA5;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 120%;
+
+}
+.title{
+    background-color:#114769; 
+    color:#f542e3;
+    padding: 5% 0;
+}
+.note{
+    display: grid;
+    grid-template-columns: 3% 94% 3%;
+    background-color:#61677A ;
+    margin-top: 1%;
+    text-align: center;
+    cursor: move;
+    
+}
+@media only screen and (max-width: 600px) {
+    .note{
+        grid-template-columns: 7% 86% 7%;
+    }
+    
+    
+}
+.rmbtn{
+    border: hidden;
+    clear: inline-end;
+    background-color: #61677A;
+    /*width: 0;
+    height: 0;*/
+    
+}
+#add{
+    border-radius: 50%;
+    color: #f542e3;
+    background-color: #114769;
+    height: 2rem;
+    width: 2rem;
+   
+    
+    
+}
+#add:disabled{
+    color:#114769;
+}
+#add-note{
+    background-color:#9E9FA5 ;
+    border: hidden;
+    width:80%;
+    height: 2rem;
+
+}
+.draggable.dragging{
+   opacity: .1;
+}
+
+
